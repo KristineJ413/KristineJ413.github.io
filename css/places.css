@@ -1,0 +1,291 @@
+#top a {
+	float: right;
+	color: black;
+	font-family: Open Sans;
+	text-decoration: none;
+}
+
+#top a:hover {
+	color: #707070;
+	cursor: pointer;
+	text-decoration: none;
+}
+/* side nav bar */
+#open-side-nav {
+	position: absolute;
+	top: 25px;
+	left: 20px;
+	width: 40px;
+	height: 40px;
+	color: black;
+}
+
+#open-side-nav:hover {
+	color: #707070;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#sidenav {
+	width: 0px;
+	height: 100%; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #FFA8A8; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.9s; 
+    font-family: Open Sans;
+}
+
+#sidenav a {
+    padding: 10px 30px 10px 32px;
+    text-decoration: none;
+    font-size: 14pt;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+#sidenav a:hover {
+    color: #f1f1f1;
+}
+
+#exit-side-nav {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: #818181;
+}
+
+#exit-side-nav:hover {
+	color: #f1f1f1;
+	text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* hong kong image styling */
+#hkimg {
+	position: absolute;
+	top: 10%;
+	left: 13%;
+	clip: rect(0px,500px,750px,0px)
+}
+
+#hkoutline {
+	position: absolute;
+	width: 450px;
+	height: 530px;
+	margin-left: 120px;
+	margin-top: 100px;
+	border: 1px solid #707070;
+	z-index: -1;
+}
+
+#hkbox {
+	position: absolute;
+	width: 540px;
+	height: 430px;
+	background: #FFA8A8;
+	margin-left: 200px;
+	margin-top: 180px;
+	z-index: -1;
+}
+
+#hk-title {
+	position: absolute;
+	left: 66%;
+	top: 13%;
+	font-family: Pacifico;
+	font-size: 30pt;
+	color: #FFA8A8;
+}
+
+#hk-food-name {
+	position: absolute;
+	left: 66%;
+	top: 27%;
+	font-family: Open Sans;
+	font-size: 22pt;
+}
+
+#hk-description {
+	position: absolute;
+	left: 66%;
+	top: 37%;
+	right: 5%;
+	font-family: Open Sans;
+	font-size: 14pt;
+}
+
+/**** paris ****/
+#pimg {
+	position: absolute;
+	top: 0%;
+	left: 8%;
+	clip: rect(90px,570px,610px, 60px)
+}
+
+#poutline {
+	position: absolute;
+	width: 450px;
+	height: 530px;
+	margin-left: 120px;
+	margin-top: 120px;
+	border: 1px solid #707070;
+	z-index: -1;
+}
+
+#pbox {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	background: #779ecb;
+	margin-left: 210px;
+	margin-top: 130px;
+	z-index: -1;
+}
+
+#p-title {
+	position: absolute;
+	left: 63%;
+	top: 13%;
+	font-family: Pacifico;
+	font-size: 30pt;
+	color: #779ecb;
+}
+
+#p-food-name {
+	position: absolute;
+	left: 63%;
+	top: 27%;
+	font-family: Open Sans;
+	font-size: 22pt;
+}
+
+#p-description {
+	position: absolute;
+	left: 63%;
+	top: 42%;
+	right: 5%;
+	font-family: Open Sans;
+	font-size: 14pt;
+}
+
+
+/**** ny ****/
+#nyimg {
+	position: absolute;
+	top: 0%;
+	left: 13%;
+	clip: rect(90px,500px,610px, 0px)
+}
+
+#nyoutline {
+	position: absolute;
+	width: 450px;
+	height: 530px;
+	margin-left: 120px;
+	margin-top: 120px;
+	border: 1px solid #707070;
+	z-index: -1;
+}
+
+#nybox {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	background: #f9d77e;
+	margin-left: 210px;
+	margin-top: 130px;
+	z-index: -1;
+}
+
+#ny-title {
+	position: absolute;
+	left: 63%;
+	top: 13%;
+	font-family: Pacifico;
+	font-size: 30pt;
+	color: #f9d77e;
+}
+
+#ny-food-name {
+	position: absolute;
+	left: 63%;
+	top: 27%;
+	font-family: Open Sans;
+	font-size: 22pt;
+}
+
+#ny-description {
+	position: absolute;
+	left: 63%;
+	top: 42%;
+	right: 5%;
+	font-family: Open Sans;
+	font-size: 14pt;
+}
+
+/**** rio ****/
+#rioimg {
+	position: absolute;
+	top: -20%;
+	left: 13%;
+	clip: rect(280px,500px, 790px, 0px)
+}
+
+#riooutline {
+	position: absolute;
+	width: 450px;
+	height: 530px;
+	margin-left: 120px;
+	margin-top: 120px;
+	border: 1px solid #707070;
+	z-index: -1;
+}
+
+#riobox {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	background: #d6f0cd;
+	margin-left: 210px;
+	margin-top: 130px;
+	z-index: -1;
+}
+
+#rio-title {
+	position: absolute;
+	left: 63%;
+	top: 13%;
+	font-family: Pacifico;
+	font-size: 30pt;
+	color: #d6f0cd;
+}
+
+#rio-food-name {
+	position: absolute;
+	left: 63%;
+	top: 27%;
+	font-family: Open Sans;
+	font-size: 22pt;
+}
+
+#rio-description {
+	position: absolute;
+	left: 63%;
+	top: 42%;
+	right: 5%;
+	font-family: Open Sans;
+	font-size: 14pt;
+}
