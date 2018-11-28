@@ -1,0 +1,216 @@
+
+/* top nav bar */
+#topbar {
+	margin: 0;
+	padding: 0;
+	height: 50px;
+	width: 100%;
+	background: #FFA8A8;
+}
+
+
+.topbaritem {
+	display: inline-block;
+	padding: 10px;
+	margin-bottom: 20px;
+	font-family: Pacifico;
+	letter-spacing: 2px;
+	font-size: 15pt;
+	color: #707070;
+}
+
+
+#about-button {
+	position: relative;
+	font-family: Pacifico;
+	color: #707070;
+	left: 90%;
+	top: 10px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#about-button:hover {
+	color:white;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#title {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	font-size: 20pt;
+	font-family: Pacifico;
+	color: #707070;
+}
+#open-side-nav {
+	position: absolute;
+	top: 25px;
+	left: 20px;
+	width: 40px;
+	height: 40px;
+	color: #707070;
+}
+
+#open-side-nav:hover {
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+
+
+/* about pop-up */
+
+#modal {
+	display: none;
+	position: fixed;
+	z-index: 2;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.4);
+}
+
+#modal-content {
+    background-color: #FFA8A8;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 45%;
+    font-family: Open Sans;
+    color: #818181;
+
+}
+
+#exit-modal {
+    color: #818181;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#exit-modal:hover,
+#exit-modal:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* sidenav */
+
+#sidenav {
+	height: 100%; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #FFA8A8; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.9s; 
+    font-family: Open Sans;
+    width: 0px;
+}
+
+#sidenav a {
+    padding: 10px 30px 10px 32px;
+    text-decoration: none;
+    font-size: 14pt;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+#sidenav a:hover {
+    color: #f1f1f1;
+}
+
+#exit-side-nav {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: #818181;
+}
+
+#exit-side-nav:hover {
+	color: #f1f1f1;
+	text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* main body */
+#map {
+	width: 1700px;
+	position: absolute;
+	top: -50px;
+	left: -150px;
+	z-index: -1;
+}
+
+/* pins */
+.pin {
+	width: 30px;
+}
+.pin:hover {
+	width: 40px;
+	transition: .2s;
+}
+
+.label {
+	visibility: hidden;
+	font-family: Pacifico;
+	font-size: 12pt;
+}
+
+#hongkong {
+	position: absolute;
+	left: 980px;
+	margin-top: 300px;
+}
+
+#hongkong:hover .label{
+	visibility: visible;
+}
+	
+#paris {
+	position: absolute;
+	left: 690px;
+	margin-top: 220px;
+}
+
+#paris:hover .label{
+	visibility: visible;
+}
+
+#newyork {
+	position: absolute;
+	left: 470px;
+	top: 300px;
+}
+
+#newyork:hover .label{
+	visibility: visible;
+}
+
+#rio {
+	position: absolute;
+	left: 540px;
+	top: 490px;
+}
+
+#rio:hover .label{
+	visibility: visible;
+}
+
